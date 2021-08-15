@@ -1,0 +1,80 @@
+<table class="td-center" style="width: 770px;">
+  <tr>
+  <th rowspan="2">序号</th>
+  <th class="crossed" rowspan="2">
+    <div>
+      <div class="left">
+        <br>依赖基本表的对象
+      </div>
+      <div class="right">
+        标准及主流数据库的处理方式<br>
+      </div>
+    </div>
+  </th>
+  <th colspan="2">SQL2011</th>
+  <th colspan="2">Oracle 12c</th>
+  <th colspan="2">MS SQL<br>Server 2012</th>
+  </tr>
+  <tr>
+    <td>R</td>
+    <td>C</td>
+    <td class="crossed"></td>
+    <td>C</td>
+    <td class="crossed" colspan="2"></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>索引</td>
+    <td colspan="2">无规定</td>
+    <td>√</td>
+    <td>√</td>
+    <td>√</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>视图</td>
+    <td>×</td>
+    <td>√</td>
+    <td>√<br>保留</td>
+    <td>√<br>保留</td>
+    <td>√<br>保留</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>DEFAULT，PRIMARY KEY，CHECK<br>
+      （只含该表的列）NOT NULL 等约束</td>
+    <td>√</td>
+    <td>√</td>
+    <td>√</td>
+    <td>√</td>
+    <td>√</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>外码FOREIGN KEY</td>
+    <td>×</td>
+    <td>√</td>
+    <td>×</td>
+    <td>√</td>
+    <td>×</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>触发器 TRIGGER</td>
+    <td>×</td>
+    <td>√</td>
+    <td>×</td>
+    <td>√</td>
+    <td>√</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>函数或储存过程</td>
+    <td>×</td>
+    <td>√</td>
+    <td>√<br>保留</td>
+    <td>√<br>保留</td>
+    <td>√<br>保留</td>
+  </tr>
+  <tr>
+</table>

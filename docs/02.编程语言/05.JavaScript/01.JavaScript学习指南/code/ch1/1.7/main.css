@@ -1,0 +1,6 @@
+#mainCanvas {
+/* 给 canvas 元素设定宽度和高度，并设置黑色边框：*/
+  width: 400px;
+  height: 400px;
+  border: solid 1px black;
+}

@@ -1,0 +1,25 @@
+.github
+
+# npm
+package-lock.json
+node_modules
+
+# vscode
+.vscode
+
+# vuepress 
+docs/.vuepress/dist
+**/config.js
+deploy.sh
+yarn*
+*.json
+*.log
+utils
+theme-vdoing
+icon
+**/.vuepress
+
+
+# 百度链接推送
+urls.txt
+baiduPush.sh
