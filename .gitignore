@@ -23,3 +23,8 @@ icon
 # 百度链接推送
 urls.txt
 baiduPush.sh
+
+# C
+**/*.out
+**/input.txt
+**/test*
