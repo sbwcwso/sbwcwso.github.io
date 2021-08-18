@@ -17,7 +17,7 @@ Hello world!
 
 int main(void)
 {
-  char ch;
+  int ch;
   signed char checksum = -1;
   while ((ch = getchar()) != EOF)
   {

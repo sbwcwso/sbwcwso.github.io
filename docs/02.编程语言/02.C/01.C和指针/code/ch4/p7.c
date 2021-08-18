@@ -12,7 +12,7 @@
 
 #define NUL '\0'
 
-int is_white(char ch)
+int is_white(int ch)
 {
   return ch == ' ' || ch == '\t' || ch == '\v' || ch == '\n' || ch == '\r' || ch == '\f';
 }
@@ -21,7 +21,7 @@ void deblank(char string[])
 {
   char *src;
   char *dest;
-  char ch;
+  int ch;
 
   src = string;
   dest = string;

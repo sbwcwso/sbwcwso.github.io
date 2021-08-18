@@ -39,7 +39,9 @@ Almost done now.
 int main(void)
 {
   char new_line[LINE_SIZE], last_line[LINE_SIZE];
-  int print_from_group = FALSE;
+  int print_from_group;
+
+  print_from_group = FALSE;
 
   if (gets(last_line) != NULL)
     while (gets(new_line) != NULL)
