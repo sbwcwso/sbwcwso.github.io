@@ -59,6 +59,7 @@ tags:
 
 ### ❤️不紧急但重要的事项
 
+- ⌛⭐ 知乎中添加笔记本的链接
 - ⌛用 type-c 接口的固态硬盘，做一个 ubuntu 的启动盘
 - ⏳Python 抓取 bilibili 视频选集的内嵌地址
 - ⌛Python 编译 Markdown 的插件及方法
