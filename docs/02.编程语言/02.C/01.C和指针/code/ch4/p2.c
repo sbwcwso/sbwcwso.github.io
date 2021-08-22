@@ -1,5 +1,6 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
@@ -31,6 +32,7 @@
 83
 89
 97
+
 #pragma endregion output
 */
 
@@ -69,4 +71,5 @@ int main(void)
   }
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code

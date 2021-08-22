@@ -1,10 +1,12 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
 /*
 #pragma region output
+
 #pragma endregion output
 */
 
@@ -37,4 +39,5 @@ int substr(char dst[], char src[], int start, int len)
   dst[dst_index] = '\0';
   return dst_index;
 }
+
 #pragma endregion code

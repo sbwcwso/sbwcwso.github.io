@@ -20,6 +20,7 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
+
 #pragma endregion input
 */
 
@@ -45,6 +46,7 @@ If the implementation is easy to explain, it may be a good idea.
 18 Although never is often better than *right* now.
 19 If the implementation is hard to explain, it's a bad idea.
 20 If the implementation is easy to explain, it may be a good idea.
+
 #pragma endregion output
 */
 
@@ -82,4 +84,5 @@ int main(void)
 
   return 0;
 }
+
 #pragma endregion code

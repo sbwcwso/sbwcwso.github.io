@@ -20,12 +20,14 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
+
 #pragma endregion input
 */
 
 /*
 #pragma region output
 There should be one-- and preferably only one --obvious way to do it.
+
 #pragma endregion output
 */
 
@@ -57,4 +59,5 @@ int main(void)
 
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code

@@ -1,5 +1,6 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
@@ -8,6 +9,7 @@
 9000042496
 9000042496
 True
+
 #pragma endregion output
 */
 
@@ -26,4 +28,5 @@ int main(void)
   if (b == c)
     printf("True\n");
 }
+
 #pragma endregion code

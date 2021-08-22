@@ -1,6 +1,7 @@
 /*
 #pragma region input
 Hello world!
+
 #pragma endregion input
 */
 
@@ -8,6 +9,7 @@ Hello world!
 #pragma region output
 Hello world!
 102
+
 #pragma endregion output
 */
 
@@ -28,4 +30,5 @@ int main(void)
 
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code

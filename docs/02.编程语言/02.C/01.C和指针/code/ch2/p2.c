@@ -1,6 +1,7 @@
 /*
 #pragma region input1
 }{
+
 #pragma endregion input1
 */
 
@@ -8,6 +9,7 @@
 #pragma region output1
 Extra closing brace!
 1 unmatched opening brace(s)
+
 #pragma endregion output1
 */
 
@@ -20,12 +22,14 @@ int main(void)
   printf("hello world!\n");
   return 0;
 }
+
 #pragma endregion input2
 */
 
 /*
 #pragma region output2
 Brace-matching success.
+
 #pragma endregion output2
 */
 
@@ -61,4 +65,5 @@ int main(void)
 
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code

@@ -12,6 +12,7 @@ Almost done now.
 Another line.
 Still more.
 Finished!
+
 #pragma endregion input
 */
 
@@ -19,6 +20,7 @@ Finished!
 #pragma region output
 And another.
 Almost done now.
+
 #pragma endregion output
 */
 
@@ -63,4 +65,5 @@ int main(void)
 
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code

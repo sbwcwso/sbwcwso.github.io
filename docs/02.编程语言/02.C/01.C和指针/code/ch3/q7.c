@@ -1,10 +1,12 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
 /*
 #pragma region output
+
 #pragma endregion output
 */
 
@@ -30,4 +32,5 @@ int main(void)
 
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code

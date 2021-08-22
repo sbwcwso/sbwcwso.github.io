@@ -7,6 +7,7 @@
 ** 这些列标号成对出现，说明需要打印的输入行的列的范围．
 ** 例如， 0 3 10 12 -1 表示笫 0 列到第 3 列，第 10 列到第 12 列的内容将被打印．
 */
+
 #pragma endregion comment
 
 /*
@@ -17,6 +18,7 @@ Hello there, how are you?
 I am fine, thanks.
 See you!
 Bye
+
 #pragma endregion input
 */
 
@@ -32,6 +34,7 @@ Original input : See you!
 Rearranged line: you!
 Original input : Bye
 Rearranged line: 
+
 #pragma endregion output
 */
 
@@ -41,28 +44,33 @@ Rearranged line:
 #include <string.h>
 #define MAX_COLS 20    /* 所能处理的最大列号 */
 #define MAX_INPUT 1000 /* 每个输入行的最大长度 */
+
 #pragma endregion preprocessor_directives
 
 #pragma region function_prototype
 int read_column_numbers(int columns[], int max);
 void rearrange(char *output, char const *input, int n_columns, int const columns[]);
+
 #pragma endregion function_prototype
 
 #pragma region main1
 int main(void)
 {
+
 #pragma endregion main1
 #pragma region main2
   int n_columns;          /* 进行处理的列标号 */
   int columns[MAX_COLS];  /* 需要处理的列数 */
   char input[MAX_INPUT];  /* 容纳输入行的数组 */
   char output[MAX_INPUT]; /* 容纳输出行的数组 */
+
 #pragma endregion main2
 #pragma region main3
   /*
   ** 读取该串列标号
   */
   n_columns = read_column_numbers(columns, MAX_COLS);
+
 #pragma endregion main3
 #pragma region main4
   /*
@@ -76,6 +84,7 @@ int main(void)
   }
   return EXIT_SUCCESS;
 }
+
 #pragma endregion main4
 #pragma region read_column_numbers1
 /*
@@ -84,10 +93,12 @@ int main(void)
 
 int read_column_numbers(int columns[], int max)
 {
+
 #pragma endregion read_column_numbers1
 #pragma region read_column_numbers2
   int num = 0;
   int ch;
+
 #pragma endregion read_column_numbers2
 
 #pragma region read_column_numbers3
@@ -96,6 +107,7 @@ int read_column_numbers(int columns[], int max)
   */
   while (num < max && scanf("%d", &columns[num]) == 1 && columns[num] >= 0)
     num += 1;
+
 #pragma endregion read_column_numbers3
 #pragma region read_column_numbers4
   /*
@@ -106,6 +118,7 @@ int read_column_numbers(int columns[], int max)
     puts("Last column number is not paired.");
     exit(EXIT_FAILURE);
   }
+
 #pragma endregion read_column_numbers4
 
 #pragma region read_column_numbers5
@@ -115,11 +128,13 @@ int read_column_numbers(int columns[], int max)
 
   while ((ch = getchar()) != EOF && ch != '\n')
     ;
+
 #pragma endregion read_column_numbers5
 
 #pragma region read_column_numbers6
   return num;
 }
+
 #pragma endregion read_column_numbers6
 
 /*

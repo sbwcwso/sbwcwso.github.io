@@ -18,12 +18,9 @@ tags:
 
 ## 每月事项
 
-- 备份系统
+⌛ 备份系统
 
 ## 待归类总结
-
-- Vuepress
-  - 文件名中不可含有空格
 
 ## 📔待做事项
 
@@ -33,34 +30,44 @@ tags:
 
 ### 🔥❤️ 紧急且重要的事项
 
-::: details 已完成
-- ✔️ vim 行内含有中文时的快速移动
+::: note 已完成
+- ✔️vim 行内含有中文时的快速移动
   - 可以直接切换到中文输入法输入汉字进行查找
-- ✔️ Vuepress
+- ✔️Vuepress
   - 百度网站访问统计问题
+  - github 评论功能的测试
+  - 将代码托管到 coding 上
+    - 暂时似乎没有必要
+  - Container 的嵌套问题解决
+    - 现在的功能基本能满足要求
+  - 将网页推送到百度
+  - 搜索框使用的域名的问题
+    - 使用全局搜索后，不再需要第三方搜索
+
+- ✔️MarkDown snippets 极其的卡
+  - 时不时的出现，不明原因
+    - 弃用虚拟机后，没有再出现类似的原因，可能是因为性能的原因
+
+- 编译原理[句柄的总结](/pages/86c477/#句柄的定义)
 :::
 
 - ⏳Ubuntu 集显 VGA 输出闪屏问题
+  - 暂时全部换用独显输出，可解决大部分问题
 - ⏳vuepress
-  - Container 的嵌套问题解决
-    - 一个很好的记笔记的标记模板
-  - 将代码托管到 coding 上
-  - github 评论功能的测试
-  - 将网页推送到百度
-  - 百度网站编译不收录
-  - 搜索框使用的域名的问题
-
-- ⏳ MarkDown snippets 极其的卡
-  - 时不时的出现，不明原因
-
-- ⏳ ⭐ 编译原理句柄的总结
-
-- ⏳ chrome 如何跳转回锚点访问前的位置
+  - 百度网站暂时不收录
+- ⏳ chrome 页面内锚点访问时跳回至之前的位置
 
 ### ❤️不紧急但重要的事项
 
-- ⌛⭐ 知乎中添加笔记本的链接
+:::note 已完成
+- ✔️知乎中添加笔记本的链接
+  - 想想还是没有必要
+:::
+
+- ⌛在网页路由中加入代码文件
+- ⌛Google earth pro 在 Ubuntu 中无法使用中文输入法
 - ⌛用 type-c 接口的固态硬盘，做一个 ubuntu 的启动盘
+  - 需要解决大容量的 iso 的写入问题
 - ⏳Python 抓取 bilibili 视频选集的内嵌地址
 - ⌛Python 编译 Markdown 的插件及方法
   - 已找到相关的插件，需要花时间总结
@@ -93,13 +100,16 @@ tags:
 
 - ⏳ vscode 识别中文段落中的公式
   - 对空格的处理城需完善
-- ✔️Surface 安装 Acrobat Pro
-  - 效果不是很好，还是使用应用商店里面的 DrawBoard
 
 ### 不紧急不重要的事项
 
+::: details 已解决
+- Surface 麦克风经常会响
+  - 关掉设备中的麦克风即可
+:::
+
+
 - ⏳为内部链接也添加上 icon 标识
-- ⏳Surface 麦克风经常会响
 - ⏳[github issue](https://github.com/marlonrichert/zsh-autocomplete/discussions/240)
 - ⏳[在多个gcc版本间进行切换的方法](https://linuxconfig.org/how-to-switch-between-multiple-gcc-and-g-compiler-versions-on-ubuntu-20-04-lts-focal-fossa)
 - ⏳ 跨平台的键盘鼠标共享工具 Barrier 的使用总结

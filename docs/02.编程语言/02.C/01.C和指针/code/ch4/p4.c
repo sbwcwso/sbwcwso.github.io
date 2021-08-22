@@ -1,10 +1,12 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
 /*
 #pragma region output
+
 #pragma endregion output
 */
 
@@ -24,4 +26,5 @@ void copy_n(char dst[], char src[], int n)
       src_index += 1;
   }
 }
+
 #pragma endregion code

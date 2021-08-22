@@ -1,5 +1,6 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
@@ -15,6 +16,7 @@ The range of 'long int' is -9223372036854775808 ~ 9223372036854775807
 The maximum of 'unsigned long int' is 18446744073709551615
 The range of 'long long int' is -9223372036854775808 ~ 9223372036854775807
 The maximum of 'unsigned long long int' is 18446744073709551615
+
 #pragma endregion output
 */
 
@@ -35,4 +37,5 @@ int main(void)
   printf("The range of 'long long int' is %lld ~ %lld\n", LLONG_MIN, LLONG_MAX);
   printf("The maximum of 'unsigned long long int' is %llu\n", ULLONG_MAX);
 }
+
 #pragma endregion code

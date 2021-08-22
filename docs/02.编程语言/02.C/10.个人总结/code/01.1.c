@@ -1,5 +1,6 @@
 /*
 #pragma region input
+
 #pragma endregion input
 */
 
@@ -8,6 +9,7 @@
 FLT_DIG = 6
 DBL_DIG = 15
 LDBL_DIG = 18
+
 #pragma endregion output
 */
 
@@ -23,4 +25,5 @@ int main(void)
   printf("LDBL_DIG = %d\n", LDBL_DIG);
   return EXIT_SUCCESS;
 }
+
 #pragma endregion code
