@@ -175,7 +175,7 @@ void rearrange(char *output, char const *input, int n_columns, int const columns
       break;
 
     /*
-    ** 如果输出行数据空间不够，只复制可又容纳的字符数
+    ** 如果输出行数据空间不够，只复制可以容纳的字符数
     */
     if (output_col + nchars > MAX_INPUT - 1)
       nchars = MAX_INPUT - output_col - 1;

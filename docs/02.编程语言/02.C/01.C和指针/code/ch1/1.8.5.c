@@ -17,6 +17,7 @@ Hello there, how are you?
 I am fine, thanks.
 See you!
 Bye
+
 #pragma endregion input
 */
 
@@ -32,6 +33,7 @@ Original input : See you!
 Rearranged line: See y
 Original input : Bye
 Rearranged line: Bye
+
 #pragma endregion output
 */
 
@@ -168,4 +170,5 @@ void rearrange(char *output, char const *input, int n_columns, int const columns
   }
   output[output_col] = '\0';
 }
+
 #pragma endregion code
