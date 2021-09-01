@@ -1,7 +1,7 @@
 ---
 title: README
 date: 2021-04-10 18:51:59
-permalink: /pages/42e385/
+permalink:
 categories: 
   - 编程语言
   - 汇编语言

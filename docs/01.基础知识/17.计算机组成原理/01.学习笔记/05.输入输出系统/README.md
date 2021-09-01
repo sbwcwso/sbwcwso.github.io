@@ -3,15 +3,11 @@ author:
   name: 木子识时务
   link: https://github.com/sbwcwso
 editLink: true
-title: 自顶向上分析
-date: 2021-08-04 21:27:46
-permalink: null
+title: 输入输出系统
+date: 2021-09-01 17:05:10
+permalink: 
 categories: 
-  - null
+  - 
 tags: 
-  - null
+  - 
 ---
-
-```markmap
-
-```
