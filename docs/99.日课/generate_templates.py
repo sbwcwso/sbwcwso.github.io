@@ -44,6 +44,6 @@ for target_file, date in zip(target_files, dates):
       lines = source.readlines()
       lines.insert(8, "# {}年{}月{}日 {}\n".format(
           date.year, date.month, date.day, week_day))
-      lines.insert(10, "## {}\n".format(week_day))
+      lines.insert(10, "## {}\n\n".format(week_day))
       dest.writelines(lines)
     break
