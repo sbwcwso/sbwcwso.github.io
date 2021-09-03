@@ -8,7 +8,7 @@
 #pragma region output
 The range of 'char' is -128 ~ 127
 The maximum of 'unsigned char' is 255
-The range of 'short int' is 4294934528 ~ 32767
+The range of 'short int' is -32768 ~ 32767
 The maximum of 'unsigned short int' is 65535
 The range of 'int' is -2147483648 ~ 2147483647
 The maximum of 'unsigned int' is 4294967295
@@ -28,8 +28,8 @@ int main(void)
 {
   printf("The range of 'char' is %d ~ %d\n", SCHAR_MIN, SCHAR_MAX);
   printf("The maximum of 'unsigned char' is %u\n", UCHAR_MAX);
-  printf("The range of 'short int' is %u ~ %u\n", SHRT_MIN, SHRT_MAX);
-  printf("The maximum of 'unsigned short int' is %d\n", USHRT_MAX);
+  printf("The range of 'short int' is %d ~ %d\n", SHRT_MIN, SHRT_MAX);
+  printf("The maximum of 'unsigned short int' is %u\n", USHRT_MAX);
   printf("The range of 'int' is %d ~ %d\n", INT_MIN, INT_MAX);
   printf("The maximum of 'unsigned int' is %u\n", UINT_MAX);
   printf("The range of 'long int' is %ld ~ %ld\n", LONG_MIN, LONG_MAX);
