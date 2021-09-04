@@ -16,6 +16,7 @@
 */
 
 #include <limits.h>
+#include "bitarray.h"
 
 /*
 ** Compute the character that will contain the desired bit
