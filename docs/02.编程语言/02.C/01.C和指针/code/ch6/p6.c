@@ -23,7 +23,7 @@
 ** SIZE is the number of characters needed to get enough bits.
 */
 
-#define MAX_VALUE 10000000
+#define MAX_VALUE 100000000
 #define MAX_BIT_NUMBER ((MAX_VALUE - 3) / 2)
 #define SIZE (MAX_BIT_NUMBER / CHAR_BIT + 1)
 
@@ -46,12 +46,12 @@ int main(void)
     }
   }
 
-  int step = 1000000;
+  int step = MAX_VALUE / 10;
   int count;
   int interval_num = 1;
   float count_per_thousand;
 
-  printf("Range of Numbers       Average # of Primes per Thousnad Numbers\n");
+  printf("Range of Numbers          Average # of Primes per Thousand Numbers\n");
   count = 1;
   for (number = 3; number < MAX_VALUE; number += 2)
   {
@@ -59,7 +59,7 @@ int main(void)
     if (number > interval_num * step)
     {
       count_per_thousand = count / (step / 1000.0);
-      printf("%8d -- %8d: %10.3f\n", (interval_num - 1) * step, interval_num * step, count_per_thousand);
+      printf("%10d -- %10d: %10.3f\n", (interval_num - 1) * step, interval_num * step, count_per_thousand);
       interval_num++;
       count = 0;
     }
@@ -68,7 +68,7 @@ int main(void)
       count++;
   }
   count_per_thousand = count / (step / 1000.0);
-  printf("%8d -- %8d: %10.3f\n", (interval_num - 1) * step, interval_num * step, count_per_thousand);
+  printf("%10d -- %10d: %10.3f\n", (interval_num - 1) * step, interval_num * step, count_per_thousand);
 
   return EXIT_SUCCESS;
 }
