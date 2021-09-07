@@ -10,9 +10,6 @@
 #pragma endregion output
 */
 
-#include <stdio.h>
-#include <stdlib.h>
-
 #pragma region code
 /*
 ** Find the first occurrence in 'source' of any of the characters in 'chars' and
@@ -21,6 +18,8 @@
 */
 
 #include <limits.h>
+
+#define NULL 0
 
 char *find_char(char const *source, char const *chars)
 {
@@ -45,6 +44,9 @@ char *find_char(char const *source, char const *chars)
 }
 
 #pragma endregion code
+
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
