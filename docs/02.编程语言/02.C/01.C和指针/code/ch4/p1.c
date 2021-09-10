@@ -43,15 +43,15 @@ int main(void)
   */
 
   new_guess = 1;
-  printf("%.8e\n", new_guess);
+  printf("%.6g\n", new_guess);
   do
   {
     pre_guess = new_guess;
     new_guess = (pre_guess + number / pre_guess) / 2;
-    printf("%.8e\n", new_guess);
+    printf("%.6g\n", new_guess);
   } while (new_guess != pre_guess);
 
-  printf("The square root of %g is %.5e\n", number, new_guess);
+  printf("The square root of %g is %.6g\n", number, new_guess);
 
   return EXIT_SUCCESS;
 }
