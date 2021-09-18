@@ -1,7 +1,6 @@
 /*
 ** Compute the factorial of n, recursively
 */
-
 long
 factorial( int n )
 {

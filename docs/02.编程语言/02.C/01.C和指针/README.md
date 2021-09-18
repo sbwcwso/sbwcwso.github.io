@@ -11,3 +11,8 @@ tags:
   - null
 editLink: true
 ---
+
+::: tip
+* 本书基于 ANSI C 标准，即 C90
+  * 用 `gcc` 编译时需要加上 `-std=c89` 的选项
+:::
