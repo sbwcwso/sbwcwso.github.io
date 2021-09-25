@@ -35,10 +35,12 @@ int array_offset(int arrayinfo[], ...)
     subscripts[i] = va_arg(var_args, int);
   va_end(var_args);
 
-  for (i = 0, offset = 0; i < dimensions; i++)
+  arrayinfo += dimensions * 2;
+
+  for (i = dimensions - 1, offset = 0; i >= 0; i--)
   {
-    lo = *++arrayinfo;
-    hi = *++arrayinfo;
+    hi = *arrayinfo--;
+    lo = *arrayinfo--;
     cur = subscripts[i];
 
     if (cur < lo || cur > hi)
@@ -57,10 +59,13 @@ int main(void)
 {
   int arrayinfo[] = {3, 4, 6, 1, 5, -3, 3};
   assert(array_offset(arrayinfo, 4, 1, -3) == 0);
-  assert(array_offset(arrayinfo, 4, 1, 3) == 6);
-  assert(array_offset(arrayinfo, 5, 1, -3) == 35);
-  assert(array_offset(arrayinfo, 4, 1, -2) == 1);
-  assert(array_offset(arrayinfo, 4, 2, -3) == 7);
-  assert(array_offset(arrayinfo, 6, 3, 1) == 88);
+  assert(array_offset(arrayinfo, 4, 2, -3) == 3);
+  assert(array_offset(arrayinfo, 4, 1, -1) == 30);
+  assert(array_offset(arrayinfo, 5, 1, -3) == 1);
+  assert(array_offset(arrayinfo, 4, 3, -3) == 6);
+  assert(array_offset(arrayinfo, 5, 3, -1) == 37);
+  assert(array_offset(arrayinfo, 6, 1, -3) == 2);
+  assert(array_offset(arrayinfo, 4, 1, -2) == 15);
+  assert(array_offset(arrayinfo, 6, 5, 3) == 104);
   return EXIT_SUCCESS;
 }
