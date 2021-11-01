@@ -28,6 +28,9 @@ char *my_strcat(char *dest, char *src, size_t size)
   if (remain_size > 1)
     strncat(dest, src, remain_size - 1);
 
+  /*
+  ** Make sure the result is a real string
+  */
   dest[size - 1] = '\0';
 
   return dest;
